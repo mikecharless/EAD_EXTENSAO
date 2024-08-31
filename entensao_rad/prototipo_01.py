@@ -63,13 +63,13 @@ class main():
         self.lista_alunos.heading("#1", text="Matrícula")
         self.lista_alunos.heading("#2", text="Nome")
         self.lista_alunos.heading("#3", text="Telefone")
-        self.lista_alunos.heading("#4", text="Data de pagamento")
+        self.lista_alunos.heading("#4", text="Dia de pagamento")
 
         self.lista_alunos.column("#0", width=1)
         self.lista_alunos.column("#1", width=50)
-        self.lista_alunos.column("#2", width=220)
-        self.lista_alunos.column("#3", width=115)
-        self.lista_alunos.column("#4", width=115)
+        self.lista_alunos.column("#2", width=235)
+        self.lista_alunos.column("#3", width=130)
+        self.lista_alunos.column("#4", width=85)
 
         self.lista_alunos.place(relx=0.01, rely=0.1, relwidth=0.95, relheight=0.85)
 
