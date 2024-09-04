@@ -113,7 +113,7 @@ class funcs():
         self.variaveis()
         self.conecta_banco()
         comando = """DELETE FROM Alunos WHERE matricula = ?;"""
-        self.cursor.execute(comando, self.matricula)
+        self.cursor.execute(comando, [self.matricula])
         self.conexao.commit()
         self.desconecta_banco()
         self.limpar_dados()
